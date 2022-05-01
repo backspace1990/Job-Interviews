@@ -2,7 +2,6 @@ def get_inductees(names, birthday_years, genders):
     list1 = []
     list2 = []
     k = 0
-
     for name in names:
         if genders[k] == 'Male':
             if type(birthday_years[k]) == int:
